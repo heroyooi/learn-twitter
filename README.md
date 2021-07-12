@@ -16,6 +16,21 @@ npm i firebase
 npm i react-router-dom
 ```
 
+## 2.0 Using Firebase Auth
+
+- [파이어베이스 - docs - firebaseauth](https://firebase.google.com/docs/reference/js/firebase.auth)
+
+```json
+{
+  "compilerOptions": {
+    "baseUrl": "src"
+  },
+  "include": ["src"]
+}
+```
+
+- 전체 파일 import 루트를 src로 지정
+
 ## 강좌
 
-[2.0 Using Firebase Auth](https://nomadcoders.co/nwitter/lectures/1911)
+[2.1 Login Form part One](https://nomadcoders.co/nwitter/lectures/1912)
