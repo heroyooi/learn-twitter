@@ -33,4 +33,4 @@ npm i react-router-dom
 
 ## 강좌
 
-[2.1 Login Form part One](https://nomadcoders.co/nwitter/lectures/1912)
+[2.2 Recap](https://nomadcoders.co/nwitter/lectures/1913)
