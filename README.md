@@ -45,6 +45,30 @@ npm i react-router-dom
 
 - [파이어베이스 - docs - signInWithPopup](https://firebase.google.com/docs/reference/js/firebase.auth.Auth#signinwithpopup)
 
+## 2.6 Log Out
+
+- [React Router - Hooks - useHistory](https://reactrouter.com/web/api/Hooks/usehistory)
+
+## 3.0 Form and Database Setup
+
+- Firestore Database 사용
+- fbase.js 파일에 데이터베이스 연결
+
+```js
+import "firebase/firestore";
+
+export const dbService = firebase.firestore();
+```
+
+## 3.1 Nweeting
+
+- [파이어베이스 - docs - Firestore](https://firebase.google.com/docs/reference/js/firebase.firestore.Firestore)
+
+## 3.2 Getting the Nweets
+
+- [파이어베이스 - docs - Firestore - CollectionReference](https://firebase.google.com/docs/reference/js/firebase.firestore.CollectionReference)
+- [파이어베이스 - docs - Firestore - QuerySnapshot](https://firebase.google.com/docs/reference/js/firebase.firestore.QuerySnapshot)
+
 ## 강좌
 
-- [2.6 Log Out](https://nomadcoders.co/nwitter/lectures/1917)
+- [3.3 Realtime Nweets](https://nomadcoders.co/nwitter/lectures/1921)
