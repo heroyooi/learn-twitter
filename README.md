@@ -31,6 +31,20 @@ npm i react-router-dom
 
 - 전체 파일 import 루트를 src로 지정
 
+## 2.3 Creating Account
+
+- [파이어베이스 - docs - firebaseauth - createUserWithEmailAndPassword](https://firebase.google.com/docs/reference/js/firebase.auth.Auth#createuserwithemailandpassword)
+
+## 2.4 Log In
+
+- [파이어베이스 - docs - firebaseauth - onAuthStateChanged](https://firebase.google.com/docs/reference/js/firebase.auth.Auth#onauthstatechanged)
+
+- onAuthStateChanged: 유저가 로그아웃할 때, 계정을 생성할 때, firebase가 초기화 될 때 실행
+
+## 2.5 Social Login
+
+- [파이어베이스 - docs - signInWithPopup](https://firebase.google.com/docs/reference/js/firebase.auth.Auth#signinwithpopup)
+
 ## 강좌
 
-[2.2 Recap](https://nomadcoders.co/nwitter/lectures/1913)
+- [2.6 Log Out](https://nomadcoders.co/nwitter/lectures/1917)
