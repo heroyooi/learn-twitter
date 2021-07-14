@@ -69,6 +69,45 @@ export const dbService = firebase.firestore();
 - [파이어베이스 - docs - Firestore - CollectionReference](https://firebase.google.com/docs/reference/js/firebase.firestore.CollectionReference)
 - [파이어베이스 - docs - Firestore - QuerySnapshot](https://firebase.google.com/docs/reference/js/firebase.firestore.QuerySnapshot)
 
+```js
+const Home = ({ userObj }) => {
+  const [nweets, setNweets] = useState([]);
+  const getNweets = async () => {
+    const dbNweets = await dbService.collection("nweets").get();
+    dbNweets.forEach((document) => {
+      const nweetObject = {
+        ...document.data(),
+        id: document.id,
+      };
+      setNweets((prev) => [nweetObject, ...prev]);
+    });
+  };
+  useEffect(() => {
+    getNweets();
+  }, []);
+};
+```
+
+## 3.3 Realtime Nweets
+
+- [파이어베이스 - docs - Firestore - CollectionReference - onSnapshot](https://firebase.google.com/docs/reference/js/firebase.firestore.CollectionReference#onsnapshot)
+
+```js
+const Home = ({ userObj }) => {
+  const [nweet, setNweet] = useState("");
+  const [nweets, setNweets] = useState([]);
+  useEffect(() => {
+    dbService.collection("nweets").onSnapshot((snapshot) => {
+      const nweetArray = snapshot.docs.map((doc) => ({
+        id: doc.id,
+        ...doc.data(),
+      }));
+      setNweets(nweetArray);
+    });
+  }, []);
+};
+```
+
 ## 강좌
 
-- [3.3 Realtime Nweets](https://nomadcoders.co/nwitter/lectures/1921)
+- [3.4 Delete and Update part One](https://nomadcoders.co/nwitter/lectures/1922)
