@@ -108,6 +108,10 @@ const Home = ({ userObj }) => {
 };
 ```
 
+## 3.5 Delete and Update part Two
+
+- [파이어베이스 - docs - Firestore - DocumentReference](https://firebase.google.com/docs/reference/js/firebase.firestore.DocumentReference)
+
 ## 강좌
 
-- [3.4 Delete and Update part One](https://nomadcoders.co/nwitter/lectures/1922)
+- [3.6 Recap](https://nomadcoders.co/nwitter/lectures/1924)
