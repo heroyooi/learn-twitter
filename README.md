@@ -114,4 +114,4 @@ const Home = ({ userObj }) => {
 
 ## 강좌
 
-- [3.6 Recap](https://nomadcoders.co/nwitter/lectures/1924)
+- [4.0 Preview Images part One](https://nomadcoders.co/nwitter/lectures/1925)

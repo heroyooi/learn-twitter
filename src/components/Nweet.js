@@ -16,7 +16,7 @@ const Nweet = ({ nweetObj, isOwner }) => {
     await dbService.doc(`nweets/${nweetObj.id}`).update({
       text: newNweet,
     });
-    setEditing(false)
+    setEditing(false);
   };
   const onChange = (event) => {
     const {
