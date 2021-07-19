@@ -112,6 +112,10 @@ const Home = ({ userObj }) => {
 
 - [파이어베이스 - docs - Firestore - DocumentReference](https://firebase.google.com/docs/reference/js/firebase.firestore.DocumentReference)
 
+## 4.0 Preview Images part One
+
+- [MDN web docs - FileReader](https://developer.mozilla.org/ko/docs/Web/API/FileReader)
+
 ## 강좌
 
-- [4.0 Preview Images part One](https://nomadcoders.co/nwitter/lectures/1925)
+- [4.2 Uploading](https://nomadcoders.co/nwitter/lectures/1927)
