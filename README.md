@@ -116,6 +116,14 @@ const Home = ({ userObj }) => {
 
 - [MDN web docs - FileReader](https://developer.mozilla.org/ko/docs/Web/API/FileReader)
 
+## 4.2 Uploading
+
+```command
+npm i uuid
+```
+
+- [파이어베이스 - docs - storage - Reference - child](https://firebase.google.com/docs/reference/js/firebase.storage.Reference#child)
+
 ## 강좌
 
-- [4.2 Uploading](https://nomadcoders.co/nwitter/lectures/1927)
+- [4.3](https://nomadcoders.co/nwitter/lectures/1928)
