@@ -124,6 +124,10 @@ npm i uuid
 
 - [파이어베이스 - docs - storage - Reference - child](https://firebase.google.com/docs/reference/js/firebase.storage.Reference#child)
 
+## 4.3 File URL and Nweet
+
+- [파이어베이스 - docs - storage - UploadTaskSnapshot](https://firebase.google.com/docs/reference/js/firebase.storage.UploadTaskSnapshot)
+
 ## 강좌
 
-- [4.3](https://nomadcoders.co/nwitter/lectures/1928)
+- [#4.4 Deleting Files](https://nomadcoders.co/nwitter/lectures/1929)
