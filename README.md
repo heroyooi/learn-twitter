@@ -122,7 +122,7 @@ const Home = ({ userObj }) => {
 npm i uuid
 ```
 
-- [파이어베이스 - docs - storage - Reference - child](https://firebase.google.com/docs/reference/js/firebase.storage.Reference#child)
+- [파이어베이스 - docs - storage - Reference](https://firebase.google.com/docs/reference/js/firebase.storage.Reference)
 
 ## 4.3 File URL and Nweet
 
