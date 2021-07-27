@@ -128,6 +128,31 @@ npm i uuid
 
 - [파이어베이스 - docs - storage - UploadTaskSnapshot](https://firebase.google.com/docs/reference/js/firebase.storage.UploadTaskSnapshot)
 
+## 5.0 Get My Own Nweets
+
+```js
+import { dbService } from "fbase";
+
+const getMyNweets = async () => {
+  const nweets = await dbService
+    .collection("nweets")
+    .where("creatorId", "==", userObj.uid)
+    .orderBy("createdAt")
+    .get();
+  console.log(nweets.docs.map((doc) => doc.data()));
+};
+
+useEffect(() => {
+  getMyNweets();
+}, []);
+```
+
+- 콘솔 에러에 링크를 클릭해 파이어베이스 색인을 추가한다.
+
+## 5.1 Update Profile
+
+- [파이어베이스 - docs - user - updateProfile](https://firebase.google.com/docs/reference/js/firebase.User#updateprofile)
+
 ## 강좌
 
-- [#5.0 7:00](https://nomadcoders.co/nwitter/lectures/1930)
+- [#6.0 Cleaning JS](https://nomadcoders.co/nwitter/lectures/1933)
