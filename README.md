@@ -130,4 +130,4 @@ npm i uuid
 
 ## 강좌
 
-- [#4.4 Deleting Files](https://nomadcoders.co/nwitter/lectures/1929)
+- [#5.0 7:00](https://nomadcoders.co/nwitter/lectures/1930)
