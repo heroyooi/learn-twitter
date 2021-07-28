@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/learn-twitter/static/css/main.5e64d60d.chunk.css",
+    "main.js": "/learn-twitter/static/js/main.e8ad998e.chunk.js",
+    "main.js.map": "/learn-twitter/static/js/main.e8ad998e.chunk.js.map",
+    "runtime-main.js": "/learn-twitter/static/js/runtime-main.943d8207.js",
+    "runtime-main.js.map": "/learn-twitter/static/js/runtime-main.943d8207.js.map",
+    "static/js/2.f7f2c075.chunk.js": "/learn-twitter/static/js/2.f7f2c075.chunk.js",
+    "static/js/2.f7f2c075.chunk.js.map": "/learn-twitter/static/js/2.f7f2c075.chunk.js.map",
+    "index.html": "/learn-twitter/index.html",
+    "static/css/main.5e64d60d.chunk.css.map": "/learn-twitter/static/css/main.5e64d60d.chunk.css.map",
+    "static/js/2.f7f2c075.chunk.js.LICENSE.txt": "/learn-twitter/static/js/2.f7f2c075.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.943d8207.js",
+    "static/js/2.f7f2c075.chunk.js",
+    "static/css/main.5e64d60d.chunk.css",
+    "static/js/main.e8ad998e.chunk.js"
+  ]
+}
