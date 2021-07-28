@@ -153,6 +153,75 @@ useEffect(() => {
 
 - [파이어베이스 - docs - user - updateProfile](https://firebase.google.com/docs/reference/js/firebase.User#updateprofile)
 
+## 6.1 Styles
+
+```command
+npm i @fortawesome/fontawesome-free @fortawesome/fontawesome-svg-core @fortawesome/free-brands-svg-icons @fortawesome/free-regular-svg-icons @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
+```
+
+## 6.2 Deploying
+
+```command
+git remote -v
+```
+
+- 활성화된 원격저장소 이름 확인 (learn-twitter)
+- package.json 파일에 homepage 작성: "https:<유저>.github.io/<저장소 이름>"
+
+```json
+{
+  "homepage": "https://heroyooi.github.io/learn-twitter"
+}
+```
+
+- create-react-app이 우리의 사이트를 빌드할 때 URL을 알아야한다.
+- index.html의 %PUBLIC_URL% 이 부분이 homepage를 인식한다.
+
+```command
+npm i gh-pages
+```
+
+- package.json 파일에 deploy 작성
+
+```json
+{
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
+```
+
+```command
+npm run deploy
+```
+
+## 6.3 Security on Firebase
+
+- 파이어베이스 관리자에서 Authentication > Sign-in method > 승인된 도메인 > 도메인 추가
+- heroyooi.github.io 입력
+
+- [파이어베이스 - docs - 보안규칙 - 보안규칙 이해](https://firebase.google.com/docs/rules/rules-language?authuser=0)
+
+## 6.4 API Key Security
+
+- [구글 - 사용자 인증 정보](https://console.cloud.google.com/apis/credentials?folder=&organizationId=&project=nwitter-d8c07)
+
+### API 키의 Browser key 클릭
+
+- 애플리케이션 제한사항 - HTTP 리퍼러(웹사이트) 선택
+- 웹사이트 제한사항 항목 추가 클릭(ADD AN ITEM)
+- heroyooi.github.io/\* 추가
+- localhost 추가
+- nwitter-d8c07.firebaseapp.com/\* 추가 (파이어베이스 Authentication - 승인된 도메인에서 확인)
+- 저장
+
+### Oauth 2.0 클라이언트 ID 의 Web Client 클릭
+
+- URI 추가 (ADD URI)
+
 ## 강좌
 
 - [#6.0 Cleaning JS](https://nomadcoders.co/nwitter/lectures/1933)
+- [강좌 소스](https://github.com/nomadcoders/nwitter)
+- [배포 결과물](https://heroyooi.github.io/learn-twitter)
